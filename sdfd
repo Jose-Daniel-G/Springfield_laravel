@@ -1,0 +1,155 @@
+[33mcommit bc9b49e166d57aa42d8cb372db7c1418f3aca48e[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sun Jul 9 20:43:38 2023 -0700
+
+    rutas
+
+[33mcommit 63226fd3604157aa9d4b075a99b68da849d5f218[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sun Jul 9 19:29:57 2023 -0700
+
+    Edicion de plantilla de recuperacion  enviada por correo electronico exitosa
+
+[33mcommit 6bd87384f106395cf2ce75c5e09977f7aac2ff16[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sun Jul 9 14:49:08 2023 -0700
+
+    proyecto creado desde cero solo copie controladores y vistas de anteriores versiones
+
+[33mcommit 940bc2d45a4188db8361d579a6f2af28553ff5ef[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jul 8 19:24:05 2023 -0700
+
+    process email recover frontend 50%
+
+[33mcommit 7a2ad000d741f19ca4823ee5d1a8cbc527471961[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jul 8 17:45:42 2023 -0700
+
+    frontend 90%
+
+[33mcommit 3c04d18416f360bbdfb30b631ba215d1937c6082[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jul 8 17:28:13 2023 -0700
+
+    frontend template 90%
+
+[33mcommit 0da9920b6e6dc770d8e620fc623ffb8a5c4294f2[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jul 8 12:33:23 2023 -0700
+
+    errores envio de plantilla como correo
+
+[33mcommit 392fa25d23f12499b34fab33ae7163c52cca54d1[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jul 8 07:42:12 2023 -0700
+
+    noticia publicada
+
+[33mcommit 392bec2bd7e1d92a367878bc199250ca856ea747[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Wed Jul 5 22:28:18 2023 -0700
+
+    email errores mejor funciona el anterior que esta sin modificar
+
+[33mcommit 42cc0df1a26e9adcad1236aacef0cb4bc2a96174[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Wed Jul 5 19:39:50 2023 -0700
+
+    mail
+
+[33mcommit 6aaf4b222b9af0deb68a0917c04b28d280771275[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Tue Jul 4 20:43:38 2023 -0700
+
+    40% views
+
+[33mcommit e6bb1d03590c83218b746753be1a9cc45654f330[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Mon Jul 3 22:12:13 2023 -0700
+
+    main view
+
+[33mcommit 86b122d84202d0e17b235ad33acd58c42fcfbd12[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Mon Jul 3 22:11:59 2023 -0700
+
+    main view
+
+[33mcommit 7b4efb4939123e877f520dfe069c9272d3b333e4[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Mon Jul 3 16:00:52 2023 -0700
+
+    new vew
+
+[33mcommit a8f991f741f90b73b172103d20a4e444d57f2343[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jul 1 08:25:24 2023 -0700
+
+    errores al mostrar carrusel con informacion correspondiente
+
+[33mcommit 3c84d33570fd01ad7f945f7f271451b0ff6bab74[m
+Author: Jose Daniel <jose.jdgo97@gmail.com>
+Date:   Sat Jun 24 01:30:12 2023 -0700
+
+    dashboard v2
+
+[33mcommit 1e42b56ca40ddff63caf715f71126d08063ead88[m
+Author: Kleizjd <jose.jdgo97@gmail.com>
+Date:   Fri Jun 9 13:49:16 2023 -0500
+
+    update pircture profile
+
+[33mcommit 7878aab69aede91b4ffacd93e519b633bdd09127[m
+Author: Kleizjd <jose.jdgo97@gmail.com>
+Date:   Fri Jun 9 01:28:39 2023 -0500
+
+    interface 40%
+
+[33mcommit b47f2233f97e3b8944afca225e93d98b672e5b3f[m
+Author: Kleizjd <jose.jdgo97@gmail.com>
+Date:   Fri Jun 9 00:26:39 2023 -0500
+
+    image profile
+
+[33mcommit b711475a032b85980ace509ec5cb59e2d91ac184[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Thu Jun 8 17:32:00 2023 -0500
+
+    welcome
+
+[33mcommit 2d85b1ca376385b3996b5860334564f4c9af7136[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Thu Jun 8 11:35:28 2023 -0500
+
+    customize own template
+
+[33mcommit 2957fcb510e2d534b3de19dd9dac04d58772592d[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Wed Jun 7 11:57:05 2023 -0500
+
+    routes
+
+[33mcommit 9b8a7e1a6fd5c34b4c1aea2c03103fc45102ea7d[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Wed Jun 7 11:54:30 2023 -0500
+
+    view setting firs try
+
+[33mcommit 517d8d2ebe5fd05583f75873e9f6b2e829a7baa0[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Tue Jun 6 17:25:27 2023 -0500
+
+    sign up view 2
+
+[33mcommit eeaa6b89f99b40cc5c472d2659e769c086cabe1c[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Tue Jun 6 16:52:13 2023 -0500
+
+    sign up view
+
+[33mcommit 1201cd256fc39baf7c05b202cb5caa7cc94d531e[m
+Author: kleizjd <jose.jdgo97@gmail.com>
+Date:   Sat Jun 3 12:22:01 2023 -0500
+
+    template logrin and main view
