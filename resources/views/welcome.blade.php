@@ -64,48 +64,47 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96714.68291250926!2d-74.05953969406828!3d40.75468158321536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20Nowy%20Jork%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1672242259543!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <!-- FOOTER -->
-        <footer class="container mt-4">
-            <div class="row footer-info">
-                <div class="col-md-4 col-sm-4 footer-info-grid links">
-                    <h4>ENLACES RÁPIDOS</h4>
-                    <ul>
-                        <li><a href="#about">Acerca</a></li>
-                        <li><a href="#features">Caracteristicas</a></li>
-                        <li><a href="#skills">Habilidades</a></li>
-                        <li><a href="#team">Equipo</a></li>
-                        <li><a href="#">Inicio</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-4 footer-info-grid address">
-                    <h4>Direccion</h4>
-                    <address>
-                        <ul>
-                            <li>TEQUENDAMA</li>
-                            <li>Cali Valle</li>
-                            <li>Colombia</li>
-                            <li>Telefono : +5 (314) 707-2792</li>
-                            <li>Email : <a class="mail" href="mailto:jose.dgo97@gmail.com">info jose.dgo97@gmail.com</a></li>
-                        </ul>
-                    </address>
-                </div>
-                <div class="col-md-4 col-sm-4 footer-info-grid email">
-                    <h4>Boletin</h4>
-                    <p>Suscríbase a nuestro boletín y le informaremos sobre los proyectos y promociones más recientes.</p>
-                    <form class="newsletter">
-                        <input class="email form-control-sm" type="email" placeholder="Tu email...">
-                        <button class="btn btn-primary">
-                            <i class="fas fa-envelope"></i>
-                        </button>
-                    </form>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="text-center">
-                <p class="mt-5">Copyright &copy; <?= date("Y"); ?> Empresa. All Rights Reserved |
-                    Design by Aunar Developers</p>
-            </div>
-        </footer>
+<!-- FOOTER -->
+<footer class="mt-auto bg-dark text-white-50 text-center py-3">
+    <div class="row footer-info">
+        <div class="col-md-4 col-sm-12 footer-info-grid links">
+            <h4>ENLACES RÁPIDOS</h4>
+            <ul class="list-unstyled">
+                <li><a href="#about">Acerca</a></li>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#team">Equipo</a></li>
+                <li><a href="#">Inicio</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-sm-12 footer-info-grid address">
+            <h4>Dirección</h4>
+            <address>
+                <ul class="list-unstyled">
+                    <li>TEQUENDAMA</li>
+                    <li>Cali, Valle</li>
+                    <li>Colombia</li>
+                    <li>Teléfono: +57 (314) 707-2792</li>
+                    <li>Email: <a class="text-white" href="mailto:jose.dgo97@gmail.com">info@jose.dgo97@gmail.com</a></li>
+                </ul>
+            </address>
+        </div>
+        <div class="col-md-4 col-sm-12 footer-info-grid email">
+            <h4>Boletín</h4>
+            <p>Suscríbase a nuestro boletín y le informaremos sobre los proyectos y promociones más recientes.</p>
+            <form class="newsletter d-flex">
+                <input class="form-control form-control-sm me-2" type="email" placeholder="Tu email...">
+                <button class="btn btn-primary btn-sm" type="submit">
+                    <i class="fas fa-envelope"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <p>&copy; <?= date("Y"); ?> Empresa. Todos los derechos reservados | Diseño por Aunar Developers</p>
+    </div>
+</footer>
+
     </main>
 @endsection
 

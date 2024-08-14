@@ -99,21 +99,14 @@
                 <main class="col-md-9 ms-sm-auto col-lg-10 px-4">
 
                     @yield('content')
-
+                    @include('components.footer')
                 </main>
             @else
                 <main class=" p-0 m-0 border-0">
                     @yield('content')
-
                 </main>
             @endif
-
-
-
-
         </div>
     </div>
-    {{-- @include('components.footer') --}}
 </body>
-
 </html>

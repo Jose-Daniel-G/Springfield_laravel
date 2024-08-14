@@ -6,13 +6,12 @@
             <div class="card">
                 <div class="card-body">
                     <div class="row justify-content-center">
-                        <div class="col-lg-6 col-xl-7 align-items-center order-1 order-lg-1">
-                            <img src="images/background-new.png" class="card-img " alt="Sample image">
+                        <div class="col-6">
+                                <img src="{{ asset('images/background-new.png') }}" class="responsive-img rounded-3" alt="Sample image">
                         </div>
-                        <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-2">
+                        <div class="col-6">
 
                             <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Ingresar</p>
-
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
                                 <div class="form-outline">
@@ -60,6 +59,7 @@
                                     {{-- <a style="color: #393f81;" href="{{ route('register') }}">{{ __('Register') }}</a> --}}
                                 @endif
                             </p>
+
                             <a href="#!" class="small text-muted">Teminos de uso.</a>
                             <a href="#!" class="small text-muted">Politicas de privacidad</a>
 

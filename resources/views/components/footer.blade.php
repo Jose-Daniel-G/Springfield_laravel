@@ -1,7 +1,3 @@
-
-          <footer class="footer mt-auto py-3 bg-light">
-            <div class="container">
-              {{-- <span class="text-muted">Place sticky footer content here.</span> --}}
-              <span> &copy;Copyright <?= date("Y"); ?> Best -José Daniel Grijalba</span>
-            </div>
-          </footer>
+<footer class="mt-auto text-black-50 text-center py-3">
+        <span> &copy;Copyright <?= date('Y') ?> Best -José Daniel Grijalba</span>
+</footer>

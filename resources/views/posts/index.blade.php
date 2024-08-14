@@ -2,20 +2,7 @@
 @section('content')
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3 p-0">
-                <br>
-                <br>
-                <br>
-                @if (Auth::check())
-                    {{-- SIDEBAR --}}
-                    @include('components.sidebar')
-                    {{-- FIN SIDEBAR --}}
-                @endif
-            </div>
-            <div class="col-9">
-                <br>
-                <br>
-                <br>
+            <div class="col-12">
                 <div class="card shadow-lg mt-2">
                     <div class="card-header headerRegister">
                         <h5 class="card-title" id="titleModal">Nueva Noticia</h5>
