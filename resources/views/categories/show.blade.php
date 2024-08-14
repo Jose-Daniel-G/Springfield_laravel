@@ -25,24 +25,22 @@
         </form>
         @if ($category->todos->count() > 0)
             @foreach ($categories->todos as $todo)
-            <div class="row py-1">
-              <div class="col-md-9 d-flex align-items-center">
-                  <a href="{{ route('categories-edit', ['id' => $todo->id]) }}">{{ $todo->title }}</a>
-              </div>
-              <div class="col-md-3 d-flex align-items-end">
-                  <form action="{{ route('categories-destroy', ['id' => $todo->id]) }}" method="POST">
-                      @method('DELETE')
-                      @csrf
-                      <button class="btn btn-danger btn-sm">Delete</button>
-                  </form>
-              </div>
-          </div>
+                <div class="row py-1">
+                    <div class="col-md-9 d-flex align-items-center">
+                        <a href="{{ route('categories-edit', ['id' => $todo->id]) }}">{{ $todo->title }}</a>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-end">
+                        <form action="{{ route('categories-destroy', ['id' => $todo->id]) }}" method="POST">
+                            @method('DELETE')
+                            @csrf
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </div>
+                </div>
             @endforeach
-      
         @else
             <h6 class="alert alert-danger">No hay tareas para esta categoria</h6>
 
-            {{-- @endforeach --}}
             </ul>
         @endif
     @endsection

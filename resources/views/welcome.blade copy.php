@@ -1,8 +1,21 @@
+<!doctype html>
+<html lang="en">
 
-<!-- resources/views/dashboard.blade.php -->
-@extends('layouts.app')
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Springfield posts</title>
 
-@section('content')
+    <link href="css/carousel/carousel.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <!-- Scripts -->
+    @vite(['resources/js/app.js'])
+
+<body class="bg-dark text-white">
+
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
@@ -14,7 +27,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     @if (Route::has('login'))
-                    <div class="hidden fixed top-0 right-0 ms-auto mb-2 ">
+                    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block ms-auto mb-2 ">
                         @auth
                         <a href="{{ url('/home') }}" class="btn btn-outline-success">Home</a>
                         @else
@@ -107,8 +120,5 @@
             </div>
         </footer>
     </main>
-@endsection
-
-@section('scripts')
-
-@endsection
+</body>
+</html>

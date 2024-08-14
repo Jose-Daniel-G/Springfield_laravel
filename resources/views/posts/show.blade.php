@@ -55,10 +55,6 @@
                                     <li class="list-inline-item">Elemento 1</li>
                                     <li class="list-inline-item">Elemento 2</li>
                                     <li class="list-inline-item">Elemento 3</li>
-
-                                    {{-- @foreach ($similares as $similar)
-                                        <li class="list-inline-item">Elemento 1</li>
-                                    @endforeach --}}
                                 </ul>
                             </div>
                         </div>
@@ -68,7 +64,6 @@
 
                                     <div class="card-body">
                                         @if (Route::has('login'))
-                                            {{-- <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block "> --}}
                                             @auth
                                                 <div class="input-group">
                                                     <input type="text" class="form-control" name="comentario" id="comentario"
@@ -84,7 +79,6 @@
                                             @else
                                                 <h2>Comentarios</h2>
                                             @endauth
-                                            {{-- </div> --}}
                                         @endif
 
                                         <div class="sl-item">

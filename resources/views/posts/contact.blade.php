@@ -2,13 +2,6 @@
 @section('content')
     <div class="container-fluid">
         <div class="row">
-            {{-- <div class="col-3 p-0">
-                @if (Auth::check())
-                    @include('components.sidebar')
-                @endif
-            </div> --}}
-
-            {{-- <div class="col-9"> --}}
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="col-md-5 align-self-center">
