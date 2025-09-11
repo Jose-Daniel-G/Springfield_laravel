@@ -28,11 +28,10 @@ class PostController extends Controller
         return view('welcome', compact('posts'));
     }
     public function index()
-    {
-        $categories = Category::all();
+    {   $categories = Category::all();
         return view('posts.index', compact('categories'));
     }
-    // public function index(){$categories = Category::all();return view('news.index', ['categories' => $categories]);}
+    // public function index(){$categories = Category::all();return view('news.index', $categories);}
     public function show(Post $post)
     {
         $similares = Post::where('category_id', $post->category_id)
@@ -46,24 +45,10 @@ class PostController extends Controller
         // return view('posts.show');
     }
 
-    public function edit($id)
-    {
-        //
-    }
-
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    public function destroy($id)
-    {
-        //
-    }
-    public function create()
-    {
-        //
-    }
+    public function edit($id){}
+    public function update(Request $request, $id){}
+    public function destroy($id){}
+    public function create(){}
 
     public function store(Request $request)
     {

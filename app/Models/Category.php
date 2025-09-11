@@ -11,6 +11,6 @@ class Category extends Model
     protected $table = 'categories';
 
     public function breakingNews(){
-        return $this->hasMany(BreakingNew::class);
+        return $this->hasMany(BreakingNews::class);
     }
 }

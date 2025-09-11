@@ -5,8 +5,8 @@
         <div class="modal-content">
             <div class="text-center modal-header">
                 <h3 class="w-100 modal-title">Noticia</h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="card-body">
