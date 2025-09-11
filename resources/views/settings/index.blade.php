@@ -52,7 +52,6 @@
                                                     <div class="col-md-5 border-right">
                                                         <label for="photo">
                                                             @if (!empty(Auth::user()->image->url))
-                                                                
                                                                 <div class="row">
                                                                     <div class="col-12">
                                                                         <div
@@ -106,9 +105,7 @@
                                                                         value="{{ Auth::user()->name }}" id="name"
                                                                         name="name">
                                                                 </div>
-                                                                {{-- <div class="col-md-6"><label class="labels">*Apellido</label><input
-                                                                    type="text" class="form-control" value=""
-                                                                    placeholder="apellido"></div> --}}
+                                                                {{-- <div class="col-md-6"><label class="labels">*Apellido</label><input type="text" class="form-control" value="" placeholder="apellido"></div> --}}
                                                             </div>
                                                             <div class="row">
 
@@ -191,19 +188,15 @@
                                         <div class="col">
                                             <div class="newSearch pb-2" id="containerModalSearchProduct">
                                                 <h3 class="w-100 modal-title">Búsqueda de usuarios</h3>
-
                                                 <button class="btn btn-primary" data-bs-toggle="modal"
                                                     data-bs-target="#modalUsuario"><i class="fa fa-save">Crear
                                                         Usuario</i></button>
                                             </div>
-
                                             <table id="tableSearchUser" class="table-bordered table-hover"
                                                 width="100%">
-
                                                 <thead id="table_usuarios"
                                                     class="table text-white bg-primary thead-primary">
                                                     <thead class="bg-primary  text-white">
-
                                                         <tr>
                                                             <th>Nombre Completo</th>
                                                             <th>Correo</th>
@@ -218,19 +211,13 @@
                                                             <td>{{ $user->name }}</td>
                                                             <td>{{ $user->email }}</td>
                                                             <td>
-                                                                <button type="button"
-                                                                    class="text-white btn btn-warning"><i
-                                                                        class="fa fa-edit"></i></button>
+                                                                <button type="button" class="text-white btn btn-warning"><i class="fa fa-edit"></i></button>
                                                             </td>
-                                                            <td>
-
-
+                                                            <td> 
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button type="submit"
-                                                                    class="btn btn-danger">Borrar</button>
+                                                                <button type="submit" class="btn btn-danger">Borrar</button>
                                                             </td>
-
                                                         </tr>
                                                     @endforeach
                                                 </tbody>

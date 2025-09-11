@@ -5,4 +5,7 @@
 - ROLES: Create: admin, writer, reader
 
 ##### NEXT STEP: COFFEE GARDEN ALBUM
-usuarios, productos, categorías, pedidos# 
+users, posts, categories 
+
+![Dashboard](public/images/SprigfielNews_2025-09-11.png)
+![Modal to show the post](public/images/SprigfielNews_2025_09_11.png)
